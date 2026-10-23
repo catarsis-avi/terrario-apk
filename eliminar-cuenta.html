@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eliminar tu cuenta de Terrario</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --crema: #f7f3ea; --superficie: #ffffff; --verde: #6f8a4b; --verde-osc: #4e6536;
+    --tinta: #2b2a26; --tinta-2: #7a766d; --borde: #e8e0d1;
+    --terracota-claro: #fbebdb; --terracota-osc: #a85f27;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--crema); color: var(--tinta);
+    font-family: "Nunito", ui-rounded, system-ui, sans-serif; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 520px; margin: 0 auto; padding: 40px 16px 56px; }
+  a { color: var(--verde-osc); font-weight: 700; }
+  h1 { font-size: 28px; font-weight: 800; margin: 0 0 8px; }
+  .sub { color: var(--tinta-2); margin: 0 0 28px; }
+  .card {
+    background: var(--superficie); border: 1px solid var(--borde); border-radius: 20px;
+    padding: 20px; margin-bottom: 16px;
+  }
+  h2 { font-size: 18px; font-weight: 800; margin: 0 0 10px; }
+  ol, ul { margin: 0; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  .nota {
+    background: var(--terracota-claro); color: var(--terracota-osc);
+    border-radius: 16px; padding: 14px 16px; font-size: 14px;
+  }
+  .btn {
+    display: inline-block; background: var(--verde); color: #fff; text-decoration: none; font-weight: 800;
+    padding: 12px 18px; border-radius: 14px; margin-top: 6px;
+  }
+  .volver { display: inline-block; margin-top: 24px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Eliminar tu cuenta de Terrario</h1>
+  <p class="sub">Puedes eliminar tu cuenta y todos tus datos cuando quieras, desde la app o pidiéndolo aquí.</p>
+
+  <section class="card">
+    <h2>Desde la app (inmediato)</h2>
+    <ol>
+      <li>Abre Terrario y entra a <b>Ajustes</b> (arriba a la derecha en Hoy).</li>
+      <li>En <b>Cuenta</b>, toca <b>Eliminar mi cuenta</b>.</li>
+      <li>Escribe «eliminar» y confirma.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Sin la app instalada</h2>
+    <p>Escríbeme desde el correo con el que creaste la cuenta pidiendo eliminarla. Lo hago en un plazo máximo de 7 días y te confirmo cuando esté listo.</p>
+    <a class="btn" href="https://wa.me/56955389747?text=Hola%20Cata%2C%20quiero%20eliminar%20mi%20cuenta%20de%20Terrario.%20Mi%20correo%20es%3A%20">Pedirlo por WhatsApp</a>
+  </section>
+
+  <section class="card">
+    <h2>Qué se elimina</h2>
+    <ul>
+      <li>Tu cuenta de acceso (correo y contraseña).</li>
+      <li>Todo lo sincronizado: retos, riegos, tareas, proyectos, terrario, gotas y logros.</li>
+      <li>Al hacerlo desde la app, también lo guardado en ese teléfono.</li>
+    </ul>
+    <p class="nota" style="margin-top:14px">No se guarda ninguna copia después de eliminar la cuenta. Si quieres conservar tu terrario, exporta un respaldo antes desde Ajustes › Exportar respaldo.</p>
+  </section>
+
+  <a class="volver" href="./">← Volver a la descarga de Terrario</a>
+</main>
+</body>
+</html>
